@@ -2,11 +2,16 @@
 
 These pages documents our standards for code organization, practices, stying for React Components and Applications.
 
-React - Code Formatting
-React - Code Conventions
-React - Project Structure
-React - Styling Conventions
-React - Stories
-React - Text and Translations
-React - Code Review Checklist
-React - Form Validation
+[React - Code Formatting](./ReactCodeFormatting.md)
+
+[React - Code Conventions](./ReactCodeConventions.md)
+
+[React - Project Structure](./ReactProjectStructure.md)
+
+[React - Styling Conventions](./ReactStylingConventions.md)
+
+[React - Stories](./ReactStories.md)
+
+[React - Text and Translations](./ReactTextAndTranslations.md)
+
+[React - Code Review Checklist](./ReactCodeReviewChecklist.md)
