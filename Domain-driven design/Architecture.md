@@ -8,6 +8,23 @@ Domain-driven directory structure
 
 - Business expert(s) should defined domains
     * organization/namespace/component
+- https://dzone.com/articles/ddd-and-microservices
+
+
+* Domain: The central focus of DDD is the domain, which represents the core business problem that the software addresses.
+
+* Entities: These are objects with distinct identities and lifecycles within the domain. They have attributes and behaviors.
+
+* Value objects: Value objects are objects without distinct identities. They represent attributes that are conceptually distinct within the domain.
+
+* Aggregates: Aggregates are groups of related entities and value objects treated as a single unit. They are often responsible for enforcing consistency and maintaining data integrity. In other words, you are creating meaningful relations between two or more value objects.
+
+* Repositories: Repositories provide an abstraction for data access, allowing the application to interact with aggregates.
+
+* Services: Services represent actions or behaviors that don’t naturally belong to a single entity or value object.
+
+* Bounded contexts: A bounded context defines a specific, self-contained part of the domain where the domain model and its concepts have clear and consistent meanings.
+
 
 ```
 **root**
